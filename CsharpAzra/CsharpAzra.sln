@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_return_Methods", "06_ret
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Return_Methods_2", "06_Return_Methods_2\06_Return_Methods_2.csproj", "{9050B8FA-E249-405E-9510-064C8FC559E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_OdevCozum", "07_OdevCozum\07_OdevCozum.csproj", "{54A81FFD-8886-414A-BCFA-867A1D807ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_OverLoad_Methods", "08_OverLoad_Methods\08_OverLoad_Methods.csproj", "{B78EF59E-3D60-4FC4-AFE5-B43014408CCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{9050B8FA-E249-405E-9510-064C8FC559E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9050B8FA-E249-405E-9510-064C8FC559E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9050B8FA-E249-405E-9510-064C8FC559E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A81FFD-8886-414A-BCFA-867A1D807ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A81FFD-8886-414A-BCFA-867A1D807ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A81FFD-8886-414A-BCFA-867A1D807ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A81FFD-8886-414A-BCFA-867A1D807ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78EF59E-3D60-4FC4-AFE5-B43014408CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78EF59E-3D60-4FC4-AFE5-B43014408CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78EF59E-3D60-4FC4-AFE5-B43014408CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78EF59E-3D60-4FC4-AFE5-B43014408CCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
