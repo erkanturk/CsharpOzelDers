@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Out_Method", "11_Out_Met
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Ref_Method", "12_Ref_Method\12_Ref_Method.csproj", "{7D35FF7F-3011-4A11-AADA-5768D0AF85E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Recursive_Methods", "13_Recursive_Methods\13_Recursive_Methods.csproj", "{2241DDD4-5A79-4B99-AA78-86679A465E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Collections", "14_Collections\14_Collections.csproj", "{3E6E4F44-19CC-4609-8CAF-9F27F64BFC0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{7D35FF7F-3011-4A11-AADA-5768D0AF85E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D35FF7F-3011-4A11-AADA-5768D0AF85E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D35FF7F-3011-4A11-AADA-5768D0AF85E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2241DDD4-5A79-4B99-AA78-86679A465E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2241DDD4-5A79-4B99-AA78-86679A465E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2241DDD4-5A79-4B99-AA78-86679A465E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2241DDD4-5A79-4B99-AA78-86679A465E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6E4F44-19CC-4609-8CAF-9F27F64BFC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6E4F44-19CC-4609-8CAF-9F27F64BFC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6E4F44-19CC-4609-8CAF-9F27F64BFC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6E4F44-19CC-4609-8CAF-9F27F64BFC0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
