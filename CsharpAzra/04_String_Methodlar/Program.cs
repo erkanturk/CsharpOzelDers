@@ -28,6 +28,8 @@
             Console.WriteLine(birlestirilmisMetin);
 
             Console.WriteLine("Boşluk temizleme: "+text.Trim());
+            Console.WriteLine("Boşluk temizleme: "+text.TrimStart());
+            Console.WriteLine("Boşluk temizleme: "+text.TrimEnd());
             string[] adDizisi = adlar.Split(',');
             foreach (string isim in adDizisi)
             {

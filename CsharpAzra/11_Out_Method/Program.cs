@@ -20,7 +20,8 @@
             //Console.WriteLine(sayi2);
             //Console.WriteLine(sayi3);
             string metin;
-            int s, s2;
+            int s ;
+            int s2;
             Metinler(out metin);
             Console.WriteLine(metin);
             Console.WriteLine(Sayilar3(out s, out s2));
@@ -40,7 +41,7 @@
         }
         static int Sayilar3(out int sayi , out int sayi2)
         {
-            sayi = 10;
+            sayi = 30;
             sayi2 = 20;
 
             return sayi + sayi2;

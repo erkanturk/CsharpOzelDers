@@ -20,8 +20,13 @@
             //Optional(adiniz,soyadiniz,yasiniz);//Ülke değeri varsayılan methodda atanılan değer olarak gelecek.
             //Optional(adiniz, soyadiniz, yasiniz, "Amerika");
             //Insan(adiniz,soyadiniz,yasiniz,"İngiltere");
-            //Insan(ad:adiniz,soyad:soyadiniz,yas:yasiniz,meslek:"Yazılım");//Methoddaki parametreleri kullanarak hangi alanları kullanmak istediğimizi belirtiriz.
+            Insan(ad:adiniz,soyad:soyadiniz,yas:yasiniz,meslek:"Yazılım");//Methoddaki parametreleri kullanarak hangi alanları kullanmak istediğimizi belirtiriz.
+            Yaz("test");
         }
+        /// <summary>
+        /// <see href="https://www.google.com.tr"/>
+        /// </summary>
+        /// <param name="metin"></param>
         static void Yaz(string metin)
         {
             Console.WriteLine(metin);
@@ -30,6 +35,16 @@
         {
             Console.WriteLine($"Ad: {ad} Soyad: {soyad} Yaş: {yas} Ülke: {ulke}");
         }
+        /// <summary>
+        /// Opsiyonel olarak Ad Soyad Yaş değerlerinden sonra Ülke ve meslek şehir kısımlarını bize 
+        /// method tarafındanda gelebilir opsiyonel olarak doldurulması zorunlu değildir.
+        /// </summary>
+        /// <param name="ad"></param>
+        /// <param name="soyad"></param>
+        /// <param name="yas"></param>
+        /// <param name="ulke"></param>
+        /// <param name="meslek"></param>
+        /// <param name="sehir"></param>
         static void Insan(string ad, string soyad, int yas, string ulke = "Türkiye",string meslek="Serbest Meslek",string sehir="İstanbul")
         {
             Console.WriteLine($"Ad: {ad} Soyad: {soyad} Yaş: {yas} Ülke: {ulke} Meslek: {meslek} Şehir: {sehir}");

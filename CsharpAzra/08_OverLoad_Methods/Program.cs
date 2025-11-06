@@ -42,10 +42,21 @@
         {
             Console.WriteLine(metin+" "+sayi);
         }
+        /// <summary>
+        /// Bir metin bir  sayı alan değer
+        /// </summary>
+        /// <param name="metin"></param>
+        /// <param name="sayi"></param>
         static void Yaz(string metin, double sayi)
         {
             Console.WriteLine(metin + " " + sayi);
         }
+        /// <summary>
+        /// 2 parametreli sayı alacak biri int biri double ve bir metin alacak
+        /// </summary>
+        /// <param name="metin"></param>
+        /// <param name="sayi"></param>
+        /// <param name="sayi2"></param>
         static void Yaz(string metin, double sayi,int sayi2)
         {
             Console.WriteLine(metin + " " + (sayi+sayi2));

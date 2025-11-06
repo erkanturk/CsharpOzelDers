@@ -56,13 +56,13 @@ namespace _14_Collections
             //kuyruk.Enqueue("Ahmet");
             //kuyruk.Enqueue("Mehmet");
             //kuyruk.Enqueue("Azra");
-            //for (int i = 5; i >=kuyruk.Count; i--)//count bize toplam miktarını getirir
+            //for (int i = 5; i >= kuyruk.Count; i--)//count bize toplam miktarını getirir
             //{
             //    Thread.Sleep(2000);
             //    Console.WriteLine($"{i}. sıradasınız");
-            //    if(kuyruk.Count==1)
+            //    if (kuyruk.Count == 1)
             //    {
-            //        Console.WriteLine("Sıra Sizde: "+kuyruk.Peek());
+            //        Console.WriteLine("Sıra Sizde: " + kuyruk.Peek());
             //    }
             //    else
             //    {
@@ -71,7 +71,7 @@ namespace _14_Collections
             //}
             #endregion
             #region Stack Yığın Lifo
-            //Stack yigin= new Stack();
+            //Stack yigin = new Stack();
             //yigin.Push(1);
             //yigin.Push(2);
             //yigin.Push(3);
@@ -106,9 +106,9 @@ namespace _14_Collections
             //iller.Add(16, "Bursa");
             //iller.Add(35, "İzmir");
             //iller.Add(05, "Amasya");
-            //iller.Add(05, 123); unique key değerleri olmalıdır
+            ////iller.Add(05, 123); unique key değerleri olmalıdır
             ////iller.Add("07", "Antalya");
-            //iller.Add(07, 07);
+            ////iller.Add(07, 07);
             //foreach (var item in iller)
             //{
             //    Console.WriteLine(item);
@@ -116,8 +116,8 @@ namespace _14_Collections
 
             //foreach (DictionaryEntry item in iller)
             //{
-            //    Console.WriteLine(item.Key+" "+item.Value);
-            //}
+            //    Console.WriteLine(item.Key + " " + item.Value);
+            ////}
             //Console.WriteLine("***********");
             //iller[06] = "Ankara Merkez";//Eğer değer varsa günceller yoksa ekler
             //iller[37] = "Kastamonu";
@@ -130,7 +130,7 @@ namespace _14_Collections
             //Console.WriteLine(iller.ContainsValue("Kastamonu"));//Varsa true yoksa false dönderir
             //Console.WriteLine(iller.ContainsKey(34));
             //Console.WriteLine(iller.GetKey(4));//KEy değerini indexine göre bulma
-            //int i =iller.IndexOfValue("Kastamonu");
+            //int i = iller.IndexOfValue("Kastamonu");
             //Console.WriteLine(i);
 
 
@@ -141,7 +141,8 @@ namespace _14_Collections
             iller.Add(16, "Bursa");
             iller.Add(35, "İzmir");
             iller.Add(05, "Amasya");
-            foreach (KeyValuePair<int,string> item in iller)// istediğim değerleri almamı sağlıyor
+            //iller.Add(07, 07);//hata verir value string olmalıdır.
+            foreach (KeyValuePair<int, string> item in iller)// istediğim değerleri almamı sağlıyor
             {
                 Console.WriteLine(item.Key);
                 Console.WriteLine(item.Value);

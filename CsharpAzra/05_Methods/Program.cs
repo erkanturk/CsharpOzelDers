@@ -42,7 +42,7 @@
 
             //DiziYazdir(adlar);
             // DiziYazdir("Ali","Veli","Ahmet"); 3 string parametre olarak algılar dizi olarak algılamaz
-
+            Islem();
             object[] karisikDizi = { "Erkan", 25, 26.5, 'A', true };
 
             DiziYazdir2(karisikDizi);
