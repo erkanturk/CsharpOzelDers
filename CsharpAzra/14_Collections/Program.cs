@@ -134,19 +134,19 @@ namespace _14_Collections
             //Console.WriteLine(i);
 
 
-            SortedList<int,string> iller = new SortedList<int, string>();
-            iller.Add(01, "Adana");
-            iller.Add(34, "İstanbul");
-            iller.Add(06, "Ankara");
-            iller.Add(16, "Bursa");
-            iller.Add(35, "İzmir");
-            iller.Add(05, "Amasya");
-            //iller.Add(07, 07);//hata verir value string olmalıdır.
-            foreach (KeyValuePair<int, string> item in iller)// istediğim değerleri almamı sağlıyor
-            {
-                Console.WriteLine(item.Key);
-                Console.WriteLine(item.Value);
-            }
+            //SortedList<int,string> iller = new SortedList<int, string>();
+            //iller.Add(01, "Adana");
+            //iller.Add(34, "İstanbul");
+            //iller.Add(06, "Ankara");
+            //iller.Add(16, "Bursa");
+            //iller.Add(35, "İzmir");
+            //iller.Add(05, "Amasya");
+            ////iller.Add(07, 07);//hata verir value string olmalıdır.
+            //foreach (KeyValuePair<int, string> item in iller)// istediğim değerleri almamı sağlıyor
+            //{
+            //    Console.WriteLine(item.Key);
+            //    Console.WriteLine(item.Value);
+            //}
             #endregion
             #region Ödev SortedList Tr-En Sözlük
             /*
@@ -174,6 +174,70 @@ namespace _14_Collections
       Kullanıcı 4'e basarsa ->
           - Döngü sonlanır.
            */
+            SortedList<string, string> sozluk = new SortedList<string, string>();
+            sozluk.Add("mavi", "blue");
+            sozluk.Add("siyah", "black");
+            sozluk.Add("beyaz", "white");
+            sozluk.Add("sari", "yellow");
+            sozluk.Add("turuncu", "orange");
+            while (true)
+            {
+                Console.WriteLine("1-Arama\n2-Çıkarma\n3-Listele\n4-Çıkış\nSeçiminiz:");
+                string secim = Console.ReadLine();
+                if (secim=="1")
+                {
+                    Console.WriteLine("Aranacak kelime:");
+                    string kelime = Console.ReadLine().ToLower();
+                    if (sozluk.ContainsKey(kelime))
+                    {
+                        Console.WriteLine(sozluk[kelime]);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Sözlükte kelime bulunamadı eklemek ister misiniz ? (E/H)");
+                        string cevap = Console.ReadLine().ToUpper();
+                        if (cevap=="E")
+                        {
+                            Console.WriteLine($"{kelime}'nin ingilizcesini giriniz");
+                            sozluk[kelime] = Console.ReadLine().ToLower();
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("Sen bilirsin senin kelimene kalmadım...");
+
+                        }
+                    }
+                }
+                else if (secim=="2")
+                {
+                    Console.WriteLine("Çıkarılacak kelime:");
+                    string kelime = Console.ReadLine().ToLower();
+                    if (sozluk.ContainsKey(kelime))
+                    {
+                        sozluk.Remove(kelime);
+                    }
+                    else
+                    {
+                        Console.WriteLine("kelime zaten ekli değil");
+                    }
+                }
+                else if (secim=="3")
+                {
+                    foreach (KeyValuePair<string, string> item in sozluk)
+                    {
+                        Console.WriteLine(item.Value+" => "+item.Key);
+                    }
+                }
+                else if (secim=="4")
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Hatalı tuşlama");
+                }
+            }
             #endregion
             #region
             /*
@@ -186,6 +250,26 @@ namespace _14_Collections
                 Örneğin: 5! = 5 × 4 × 3 × 2 × 1 = 120
              
              */
+            #endregion
+            #region HashTable
+            /*HashTable: Key sırasının önemli olmadığı durumlarda kullanlır hızlı erişimi 
+             * gerektirğinde ideal olarak kullanılan yapıdır.
+             * Hashtable'ın görevi çok sayıda elemanı key değerlerini kullanarak en hızlı şekilde erişimini sağlar
+             * bir key sadece bir defa kullanılır Sortedliste'ki gibi key değerlerinin aynı tipte olması zorunlu değildir.
+                             
+             */
+            //Hashtable hashtable = new Hashtable();
+            //hashtable.Add("06", "Ankara");
+            //hashtable.Add(34, "istanbul");
+            //hashtable.Add(10.2, "DoubleSayi");
+            //hashtable.Add(true, false);
+            //hashtable.Add("true", false);
+            //hashtable.Add("false", false);
+            //foreach (DictionaryEntry item in hashtable)
+            //{
+            //    Console.WriteLine($"{item.Key} {item.Value}");
+            //}
+            //hashtable.Remove(true);
             #endregion
         }
     }
