@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _18_Class_Object
 {
-    internal class Ogrenci
+    internal  class Ogrenci
     {
         private int OgenciNo;
         private string OgrenciAdi;

@@ -21,7 +21,7 @@
 
             user.Kaydet3("erkan", "türk", "erkantrk", "1453");
             double sayi = 123;
-            int sayi2 = sayi;
+            //int sayi2 = sayi;
             #endregion
         }
     }

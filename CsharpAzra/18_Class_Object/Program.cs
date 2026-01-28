@@ -43,14 +43,15 @@
             //ogretmen.OgretmenName="Erkan";
             //ogretmen.OgretmenSurName="Türk";
             //ogretmen.Phone=533333333;
+
             //ogretmen.OgretmenTest();
 
             //Ogretmen ogretmen1 = new Ogretmen();
             //ogretmen1.OgretmenTest();
 
-            ////Ogrenci ogrenci = new Ogrenci();
-            ////ogrenci.OgrenciAdi;// bulunduğu sınıf içerisinde private olarak işaretlendiği için başka
-            ////sınıfların kullanması engellidir.
+            //Ogrenci ogrenci = new Ogrenci();
+            //ogrenci.OgrenciAdi;// bulunduğu sınıf içerisinde private olarak işaretlendiği için başka
+            //sınıfların kullanması engellidir.
             #endregion
 
             #region Record kullanımı
@@ -90,6 +91,7 @@
             #endregion
             #region NullCheck
             //NullKontrolOrnekleri.KontrolYap("");
+            //string? deger; undefined //Tanımsız değer
             string? deger = null;
             NullKontrolOrnekleri.KontrolYap(deger);
             string metin = "Bugün hava yağışlı";

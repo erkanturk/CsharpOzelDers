@@ -13,13 +13,15 @@ namespace _18_Class_Object
         internal int OgretmenNo { get; set; } = 0;//get var olan değeri getirir set var olan değeri günceller
         internal string OgretmenName { get; set; } = string.Empty;
         internal string OgretmenSurName { get; set; } = string.Empty;
-        internal int Phone { get; set; } = 0;
+        private int Phone { get; set; } = 0;
 
         internal void OgretmenTest()
         {
+           
             if (OgretmenName is not null)
             {
                 Console.WriteLine($"Öğretmen Adı {OgretmenName} Soyad {OgretmenSurName} Telefon {Phone}");
+                Console.WriteLine();
             }
         }
 
