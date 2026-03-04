@@ -17,8 +17,6 @@
              
              */
             Custommer custommer = new Custommer();
-           
-
             custommer.Ad="Erkan";
             custommer.Soyad="Türk";
             custommer.Yas="31";

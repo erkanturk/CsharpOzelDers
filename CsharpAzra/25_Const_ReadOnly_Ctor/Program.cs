@@ -12,7 +12,7 @@
              */
             ConstTest test = new ConstTest(3);
             //test.PiSayisi=2;
-            ReadOnlyTest readOnly = new ReadOnlyTest(7);
+            ReadOnlyTest readOnly = new ReadOnlyTest(70);
             //readOnly.OkunacakDeger=6;değeri değiştirilemez
             Console.WriteLine(readOnly.OkunacakDeger);
         }
