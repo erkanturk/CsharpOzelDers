@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.11919.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_OtomatProje", "OtomatProje\02_OtomatProje.csproj", "{1CA89577-0AC1-452A-86B2-07AFEF16D6AE}"
 EndProject
@@ -98,6 +98,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_Generic_Mimari", "33_Generic_Mimari\33_Generic_Mimari.csproj", "{47AA97A3-1088-40D7-B68D-9D1C92965143}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_Ado.Net", "34_Ado.Net\34_Ado.Net.csproj", "{B7F4B287-1C04-4237-9481-6E4622A764EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_FormElemanlari", "35_FormElemanlari\35_FormElemanlari.csproj", "{85F24D72-BE3B-4448-9333-8AD2DFE9DA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_Basit_Hesap_Makinesi", "36_Basit_Hesap_Makinesi\36_Basit_Hesap_Makinesi.csproj", "{ED999C66-8308-42DF-8EB4-B1A15C26D9D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37_ManavOtomasyon", "37_ManavOtomasyon\37_ManavOtomasyon.csproj", "{F11F918A-409F-4A53-A602-4CE51218DE57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +303,18 @@ Global
 		{B7F4B287-1C04-4237-9481-6E4622A764EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F4B287-1C04-4237-9481-6E4622A764EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F4B287-1C04-4237-9481-6E4622A764EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F24D72-BE3B-4448-9333-8AD2DFE9DA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F24D72-BE3B-4448-9333-8AD2DFE9DA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F24D72-BE3B-4448-9333-8AD2DFE9DA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F24D72-BE3B-4448-9333-8AD2DFE9DA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED999C66-8308-42DF-8EB4-B1A15C26D9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED999C66-8308-42DF-8EB4-B1A15C26D9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED999C66-8308-42DF-8EB4-B1A15C26D9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED999C66-8308-42DF-8EB4-B1A15C26D9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11F918A-409F-4A53-A602-4CE51218DE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11F918A-409F-4A53-A602-4CE51218DE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11F918A-409F-4A53-A602-4CE51218DE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11F918A-409F-4A53-A602-4CE51218DE57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
